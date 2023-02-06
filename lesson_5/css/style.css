@@ -14,13 +14,15 @@ body {
 
 .text-container {
    max-width: 846px;
-   margin: 0 auto;
-   padding: 0 15px;
 }
 
 .img-container {
    max-width: 1270px;
-   margin: 0 auto;
+}
+
+.text-container,
+.img-container {
+   margin: 0 auto 80px;
    padding: 0 15px;
 }
 
@@ -43,11 +45,6 @@ body {
    max-width: 605px;
 }
 
-.text-content,
-.img-wrapper {
-   margin-bottom: 80px;
-}
-
 .img-wrapper {
    font-size: 0;
 }
@@ -58,8 +55,6 @@ body {
 
 img {
    max-width: 100%;
-   /* щоб картинки не склеювались на меншому екрані */
-   margin-bottom: 30px; 
 }
 
 
