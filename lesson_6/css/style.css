@@ -1,0 +1,102 @@
+@import url(reset.css);
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   font-weight: 300;
+   line-height: 1.78;
+   color: #6c757d;
+}
+
+.article-container {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.text-container {
+   max-width: 816px;
+   margin: 0 auto;
+}
+
+.article-title {
+   font-size: 25px;
+   font-weight: 700;
+   line-height: 1.6;
+   color: #212529;
+   max-width: 605px;
+}
+
+.article-1 .article-title {
+   margin-bottom: 40px;
+}
+
+.article-1 .article-container > * {
+   margin-bottom: 80px;
+}
+
+.article-text {
+   margin-bottom: 30px;
+}
+
+.article-images {
+   font-size: 0;
+   max-width: 100%;
+}
+
+.article-image {
+   font-size: 14px;
+   max-width: 100%;
+}
+
+.article-image-left {
+   margin-right: 30px;
+}
+
+.article-cover-image {
+   width: 100%;
+   margin-bottom: 100px;
+}
+
+.article-2 .article-container > * {
+   margin-bottom: 100px;
+}
+
+
+/* Practice block styles */
+
+.practice-block .article-container > * {
+   margin-bottom: 50px;
+}
+
+.practice-title {
+   font-size: 30px;
+   letter-spacing: 5px;
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #212529;
+   margin-bottom: 40px; 
+}
+
+.practice-block p {
+   padding: 10px;
+   border: 3px dashed grey;
+   border-top: 3px solid black;
+   border-bottom: 3px dotted red;
+   border-radius: 15px;
+   box-shadow: 3px -5px 10px 0px yellow;
+}
+
+.practice-block img {
+   display: block;
+   margin: 0 auto;
+   width: 350px;
+   height: 300px;
+   border: 10px solid greenyellow;
+   border-radius: 50%;
+   opacity: 0.85;
+}
+
+.hidden {
+   visibility: hidden;
+}
