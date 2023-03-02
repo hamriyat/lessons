@@ -36,7 +36,7 @@ body {
    text-shadow: 3px -2px 5px red;
 }
 
-.vence-container > * {
+.vence-container > *:not(:last-child) {
    margin-bottom: 15px;
 }
 
@@ -60,12 +60,26 @@ body {
    margin-bottom: 45px;
 }
 
-ul:not(:last-child) {
+.lists ul {
+   padding: 7px 0 0 7px;
+}
+
+.lists ul:not(:last-child) {
    margin-bottom: 60px;
 }
 
 .lists li:not(:last-child) {
    margin-bottom: 18px;
+}
+
+.lists li {
+   display: flex;
+   align-items: center;
+}
+
+.lists li::before {
+   flex-shrink: 0;
+   transition: all 0.5s;
 }
 
 .list-1 li::before {
@@ -107,10 +121,6 @@ ul:not(:last-child) {
 
 .list-6 li::before {
    background-image: url(../img/list-icons/blue-star.svg);
-}
-
-.lists li::before {
-   transition: all 0.5s;
 }
 
 .lists li:hover::before {
