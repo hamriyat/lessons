@@ -1,0 +1,70 @@
+img {
+   max-width: 100%;
+}
+
+body {
+   font-family: 'Comfortaa', cursive;
+   line-height: 1.5;
+   color: white;
+}
+
+.container {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.block {
+   padding: 5px 10px;
+   border: 1px #3056D3 solid;
+   background-color: #3056D3;
+   border-radius: 10px;
+   text-align: center;
+}
+
+.block:not(:last-child) {
+   margin-bottom: 10px;
+}
+
+h2 {
+   font-weight: 700;
+   font-size: 26px;
+   line-height: 1;
+}
+
+.icons p:first-of-type {
+   background: url(../img/icons/facebook.svg) 45% 100% no-repeat,
+               url(../img/icons/instagram.svg) 50% 100% no-repeat,
+               url(../img/icons/linkedin.svg) 55% 100% no-repeat,
+               url(../img/icons/twitter.svg) 60% 100% no-repeat;
+   padding-bottom: 30px;
+}
+
+.icons img:not(:last-child) {
+   margin-right: 10px;
+}
+
+.content-images img {
+   border-radius: 10px;
+}
+
+.emplpoyees img {
+   width: 22%;
+}
+
+.design-elements {
+   background-color: #fff;
+   color: black;
+}
+
+.design-elements p:last-child {
+   background: url(../img/design-elements/two-lines.svg) 30% 100% no-repeat,
+               url(../img/design-elements/dotted-shape-blue.svg) 50% 100% no-repeat,
+               url(../img/design-elements/shape.svg) 65% 100% no-repeat;
+   padding-bottom: 200px;
+}
+
+code {
+   background-color: grey;
+   color: white;
+}

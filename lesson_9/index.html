@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="icons block">
+         <h2>Іконки</h2>
+         <p>
+            Іконки - це векторні зображення, тобто вони складаються не з пікселів, а з ліній і мають формат SVG.
+            Завдяки цьому при
+            збільшенні такої іконки, її якість ніяк не зменшується. Здебільшого іконки виступають в ролі декоративних
+            елементів і тільки доповнюють основний контент, тому малоймовірно, що їх потрібно буде змінювати, а відтак
+            задаємо їх через властивість <code>background:</code> в CSS файлі.
+         </p>
+         <p>
+            Однак, існують й контентні іконки. Такі іконки швидше за все доведеться змінювати разом з контентом до якого
+            вони належать, тому прописуємо їх через тег <code>&ltimg&gt</code> в HTML файлі. Часто це можуть бути
+            логотипи компаній, але далеко не завжди.
+         </p>
+         <div class="logos">
+            <img src="img/content-icons/logo.svg" alt="logo">
+            <img src="img/content-icons/ayro-ui.svg" alt="ayro-ui-logo">
+            <img src="img/content-icons/gray-grids.svg" alt="gray-grids-logo">
+            <img src="img/content-icons/lineicons.svg" alt="lineicons-logo">
+         </div>
+         <div class="content-icons">
+            <img src="img/content-icons/layer-icon.svg" alt="layer-icon">
+            <img src="img/content-icons/refreshing-design.svg" alt="refreshing-design-icon">
+            <img src="img/content-icons/speed-icon.svg" alt="speed-icon">
+            <img src="img/content-icons/tailwind-icon.svg" alt="tailwind-icon">
+            <img src="img/content-icons/grid-icon.svg" alt="grid-icon">
+            <img src="img/content-icons/updates-icon.svg" alt="update-icon">
+         </div>
+      </div>
+      <div class="content-images block">
+         <h2>Контентні зображення</h2>
+         <p>
+            Контентні зображення зазвичай являють собою растрові зображення формату JPEG / PNG (WebP). Такі зображення,
+            є піксельними, а тому будуть втрачати якість, якщо сильно збільшувати їх оригінальне розширення. Ці
+            зображення є прям контентом сайту, а тому можуть змінюватися і для цього нам потрібно задавати їх через тег
+            <code>&ltimg&gt</code> в HTML файлі.
+         </p>
+         <p>
+            При інтеграції таких зображень в нашу верстку для нас є важливим розмір файлів, тобто маса. Тому в більшості
+            випадків ми будемо використовувати формати JPEG, так як він добре передає кольори і при цьому менше займає,
+            ніж PNG формат. Однак, якщо необхідно, щоб зображення було прозорим, то доведеться таки скористатися
+            форматом png. Однак, існують спеціальні сервіси, які допомагають нам оптимізувати розміри зображень, тому
+            варто скористатися такими перед додаванням зображень у верстку. Крім того, гугл створив новий формат - WebP,
+            для подальшої оптимізації.
+         </p>
+         <p>
+            Алгоритм стиснення WebP був створений, за словами Google, як альтернатива для файлів PNG і JPEG. Загалом
+            отримане зображення WebP у середньому на 26% менше, ніж оригінальний PNG, і на 25-34% менше, ніж
+            оригінальний JPEG. Однак у деяких конкретних випадках отримане зображення може бути більшим - набагато
+            більшим. Бувають випадки, коли WebP версія PNG була вдвічі або втричі більшою за вихідний розмір
+            файлу. Немає про що хвилюватися, іноді це просто обмеження алгоритму WebP, особливо коли вихідний файл уже
+            оптимізовано. Тому варто користатися такою конвертацією, але потрібно зважати на вихідні результати.
+         </p>
+         <div class="content-images">
+            <img src="img/content-images/hero-img.webp" alt="hero-img">
+            <img src="img/content-images/img-1.webp" alt="company-live">
+            <img src="img/content-images/img-2.webp" alt="company-live">
+            <img src="img/content-images/img-3.webp" alt="company-live">
+            <img src="img/content-images/img-4.webp" alt="company-live">
+            <img src="img/content-images/img-5.webp" alt="company-live">
+            <img src="img/content-images/img-6.webp" alt="company-live">
+            <img src="img/content-images/img-7.webp" alt="company-live">
+            <img src="img/content-images/img-8.webp" alt="company-live">
+            <img src="img/content-images/img-9.webp" alt="company-live">
+            <div class="emplpoyees">
+               <img src="img/content-images/person-1.webp" alt="app-developer">
+               <img src="img/content-images/person-2.webp" alt="ui-ux-designer">
+               <img src="img/content-images/person-4.webp" alt="web-developer">
+               <img src="img/content-images/person-3.webp" alt="sales-manager">
+            </div>
+         </div>
+      </div>
+      <div class="design-elements block">
+         <h2>Елементи дизайну</h2>
+         <p>
+            Також існують зображення, які виконують тільки роль дизайну сайту, тому їх ми також задаємо через
+            властивість <code>background:</code>
+         </p>
+         <p>
+            Зазвичай це різні геометричні фігури, для яких нам чудово підійде SVG формат.
+         </p>
+      </div>
+   </div>
+</body>
+
+</html>
